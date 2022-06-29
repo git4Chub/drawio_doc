@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-29T12:59:16.702Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="hRbKs7hQ3DlAIWNvbiiC" version="20.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-29T13:04:36.136Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="vX1EnUrnqeAJZhTgCrED" version="20.0.3" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1088" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -53,7 +53,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AEi3HNSez5Ofibtd5upA" name="Page-2">
-    <mxGraphModel dx="1915" dy="697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1488" dy="697" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -193,6 +193,21 @@
         </mxCell>
         <mxCell id="5Tr9m24EcFweUr9sThQb-159" value="ACL Data" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=#CCCCCC;gradientColor=none;fontSize=14;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;align=left;" vertex="1" parent="1">
           <mxGeometry x="870" y="880" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Tr9m24EcFweUr9sThQb-160" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;fontSize=12;strokeColor=#FF9999;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="432" y="591" as="sourcePoint" />
+            <mxPoint x="482" y="541" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Tr9m24EcFweUr9sThQb-161" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;rounded=1;glass=0;dashed=1;sketch=0;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;fontSize=12;strokeColor=#000000;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-82" y="280" width="1074" height="582" as="geometry" />
+        </mxCell>
+        <mxCell id="5Tr9m24EcFweUr9sThQb-162" value="&lt;b&gt;Upper Layer&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=consola;" vertex="1" parent="1">
+          <mxGeometry x="-81" y="232" width="91" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="5Tr9m24EcFweUr9sThQb-163" value="&lt;b&gt;Lower Layer(HCI)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;fontFamily=consola;" vertex="1" parent="1">
+          <mxGeometry x="-96" y="875" width="122" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

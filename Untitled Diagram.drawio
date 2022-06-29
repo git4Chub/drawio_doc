@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-29T08:28:37.126Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="wzAjv5ydJFZSexYXA0CO" version="20.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-06-29T11:36:05.638Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="7u6EL5b5xJ9BBABmJhS8" version="20.0.3" type="github" pages="2">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1088" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -53,60 +53,76 @@
     </mxGraphModel>
   </diagram>
   <diagram id="AEi3HNSez5Ofibtd5upA" name="Page-2">
-    <mxGraphModel dx="1088" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1915" dy="644" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="5Tr9m24EcFweUr9sThQb-28" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;b&gt;L2CAP layer&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;align=right;verticalAlign=top;arcSize=3;" vertex="1" parent="1">
-          <mxGeometry x="44" y="220" width="736" height="460" as="geometry" />
+        <mxCell id="5Tr9m24EcFweUr9sThQb-28" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;L2CAP Module&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;align=right;verticalAlign=top;arcSize=3;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-86" y="230" width="996" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="5Tr9m24EcFweUr9sThQb-27" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;b&gt;Upper layer&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;align=right;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="44" y="70" width="740" height="120" as="geometry" />
+        <mxCell id="z2WRaZwJXVNTWJqfiO8C-3" value="&lt;b&gt;Segment / Reassembly&lt;/b&gt;&lt;br&gt;&lt;b&gt;(CONFIG_BT_L2CAP_DYNAMIC_CHANNEL&lt;/b&gt;&lt;b&gt;)&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FFCE9F;gradientColor=none;horizontal=1;verticalAlign=top;align=right;fontSize=14;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="240" width="290" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="5Tr9m24EcFweUr9sThQb-26" value="&lt;font face=&quot;Helvetica&quot;&gt;&lt;b&gt;HCI layer&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;align=right;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="50" y="710" width="740" height="120" as="geometry" />
+        <mxCell id="5Tr9m24EcFweUr9sThQb-1" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;Channel Manager&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FFCE9F;gradientColor=none;horizontal=1;verticalAlign=top;align=right;fontSize=14;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;" vertex="1" parent="1">
+          <mxGeometry x="353" y="260" width="250" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="z2WRaZwJXVNTWJqfiO8C-1" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;strokeColor=default;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="200" width="800" height="500" as="geometry" />
+        <mxCell id="5Tr9m24EcFweUr9sThQb-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=consola;strokeColor=#7EA6E0;fontSize=14;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;" edge="1" parent="1" source="5Tr9m24EcFweUr9sThQb-12" target="5Tr9m24EcFweUr9sThQb-85">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="335" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="z2WRaZwJXVNTWJqfiO8C-3" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;Segment / Reassembly&lt;/span&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FFCE9F;gradientColor=none;horizontal=1;verticalAlign=top;align=right;" vertex="1" parent="1">
-          <mxGeometry x="50" y="270" width="350" height="350" as="geometry" />
+        <mxCell id="5Tr9m24EcFweUr9sThQb-12" value="ATT/SMP SDU" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=#CCCCCC;gradientColor=none;fontSize=14;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;" vertex="1" parent="1">
+          <mxGeometry x="710" y="170" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5Tr9m24EcFweUr9sThQb-1" value="&lt;b&gt;Channel Manager&lt;/b&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;fillColor=#FFCE9F;gradientColor=none;horizontal=1;verticalAlign=top;align=right;" vertex="1" parent="1">
-          <mxGeometry x="480" y="290" width="260" height="260" as="geometry" />
+        <mxCell id="5Tr9m24EcFweUr9sThQb-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;strokeColor=#7EA6E0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="1" source="5Tr9m24EcFweUr9sThQb-13" target="5Tr9m24EcFweUr9sThQb-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760.7399999999998" y="609.01" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="5Tr9m24EcFweUr9sThQb-2" value="ATT" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=#FFCE9F;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="210" y="90" width="100" height="30" as="geometry" />
+        <mxCell id="5Tr9m24EcFweUr9sThQb-13" value="ACL Data" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=#CCCCCC;gradientColor=none;fontSize=14;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;" vertex="1" parent="1">
+          <mxGeometry x="710" y="720" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5Tr9m24EcFweUr9sThQb-3" value="SMP" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=#FFCE9F;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="480" y="90" width="100" height="30" as="geometry" />
+        <mxCell id="5Tr9m24EcFweUr9sThQb-30" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=consola&quot;&gt;bt_l2cap_le_lookup_rx_cid()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;" vertex="1" parent="1">
+          <mxGeometry x="363" y="340" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5Tr9m24EcFweUr9sThQb-8" value="SDU" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=#CCCCCC;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="345" y="160" width="100" height="30" as="geometry" />
+        <mxCell id="5Tr9m24EcFweUr9sThQb-33" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=consola&quot;&gt;BT_L2CAP_CHANNEL_DEFINE()&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;" vertex="1" parent="1">
+          <mxGeometry x="363" y="290" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5Tr9m24EcFweUr9sThQb-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#7EA6E0;" edge="1" parent="1" source="5Tr9m24EcFweUr9sThQb-10" target="5Tr9m24EcFweUr9sThQb-13">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="5Tr9m24EcFweUr9sThQb-35" value="l2cap_chan_recv()" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;" vertex="1" parent="1">
+          <mxGeometry x="363" y="390" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5Tr9m24EcFweUr9sThQb-10" value="HCI" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=#FFCE9F;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="360" y="790" width="100" height="30" as="geometry" />
+        <mxCell id="5Tr9m24EcFweUr9sThQb-74" value="" style="group;fontSize=14;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;fillColor=default;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-40" y="560" width="250" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="5Tr9m24EcFweUr9sThQb-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#7EA6E0;" edge="1" parent="1" source="5Tr9m24EcFweUr9sThQb-12" target="5Tr9m24EcFweUr9sThQb-10">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="5Tr9m24EcFweUr9sThQb-65" value="" style="shape=datastore;whiteSpace=wrap;html=1;rounded=0;glass=0;sketch=0;fontFamily=consola;verticalAlign=bottom;horizontal=0;fontSize=14;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;fillColor=#FFCE9F;" vertex="1" parent="5Tr9m24EcFweUr9sThQb-74">
+          <mxGeometry y="-10" width="250" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="5Tr9m24EcFweUr9sThQb-12" value="ACL Data" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=#CCCCCC;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="210" y="740" width="100" height="30" as="geometry" />
+        <mxCell id="5Tr9m24EcFweUr9sThQb-68" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;Struct&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;fontFamily=consola;fontSize=14;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;" vertex="1" parent="5Tr9m24EcFweUr9sThQb-74">
+          <mxGeometry x="83.33666666666667" y="-10" width="83.33333333333333" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5Tr9m24EcFweUr9sThQb-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;strokeColor=#7EA6E0;" edge="1" parent="1" source="5Tr9m24EcFweUr9sThQb-13" target="5Tr9m24EcFweUr9sThQb-23">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="5Tr9m24EcFweUr9sThQb-78" value="struct bt_l2cap" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;" vertex="1" parent="5Tr9m24EcFweUr9sThQb-74">
+          <mxGeometry x="26.67" y="50" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5Tr9m24EcFweUr9sThQb-13" value="ACL Data" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=default;fillColor=#CCCCCC;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="515" y="740" width="100" height="30" as="geometry" />
+        <mxCell id="5Tr9m24EcFweUr9sThQb-79" value="struct bt_l2cap_le_chan" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;" vertex="1" parent="5Tr9m24EcFweUr9sThQb-74">
+          <mxGeometry x="26.67" y="90" width="173.33" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="5Tr9m24EcFweUr9sThQb-23" value="bt_l2cap_recv()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="650" width="170" height="30" as="geometry" />
+        <mxCell id="5Tr9m24EcFweUr9sThQb-75" value="" style="group;fontSize=14;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;fillColor=#FFFFFF;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="363" y="540" width="280" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="5Tr9m24EcFweUr9sThQb-24" value="bt_l2cap_recv()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="584.5" width="170" height="30" as="geometry" />
+        <mxCell id="5Tr9m24EcFweUr9sThQb-76" value="" style="shape=datastore;whiteSpace=wrap;html=1;rounded=0;glass=0;sketch=0;fontFamily=consola;strokeColor=default;fillColor=#FFCE9F;gradientColor=none;verticalAlign=bottom;horizontal=0;fontSize=14;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;" vertex="1" parent="5Tr9m24EcFweUr9sThQb-75">
+          <mxGeometry width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5Tr9m24EcFweUr9sThQb-77" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;Global Data&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=0;fontFamily=consola;fontSize=14;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;" vertex="1" parent="5Tr9m24EcFweUr9sThQb-75">
+          <mxGeometry x="102.66666666666667" width="93.33333333333333" height="32.30769230769231" as="geometry" />
+        </mxCell>
+        <mxCell id="5Tr9m24EcFweUr9sThQb-80" value="bt_l2cap_pool[CONFIG_BT_MAX_CONN]" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;" vertex="1" parent="5Tr9m24EcFweUr9sThQb-75">
+          <mxGeometry x="5.77" y="55" width="269.23" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="5Tr9m24EcFweUr9sThQb-85" value="&lt;span style=&quot;&quot;&gt;bt_l2cap_send_cb()&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;fillColor=#FFCE9F;" vertex="1" parent="1">
+          <mxGeometry x="660" y="360" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Tr9m24EcFweUr9sThQb-86" value="&lt;span style=&quot;&quot;&gt;bt_l2cap_recv()&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontFamily=consola;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dconsola;fillColor=#FFCE9F;" vertex="1" parent="1">
+          <mxGeometry x="660" y="570" width="200" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

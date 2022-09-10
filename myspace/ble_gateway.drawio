@@ -1,1 +1,54 @@
-<mxfile host="app.diagrams.net" modified="2022-09-07T00:36:44.360Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="CKPLXKOGCu2Vju0loTFT" version="20.2.5" type="github"><diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">7VjBcpswFPwajukYCWM4xnbSHtpOZjKdtqeOjGRQKiMiRAz5+kqRMMYQD21J7E6TS6TlSUhvd6VnHLjYlO8FypJPHBPmgAkuHbh0AHAncKb+aaQyiA9cA8SCYhvUALf0kdQjLVpQTPJWoOScSZq1wYinKYlkC0NC8G07bM1Z+60ZikkHuI0Q66JfKZaJQQMwa/APhMZJ/WbXD82TDaqD7U7yBGG+3YPglQMXgnNpWptyQZhOXp0XM+76mae7hQmSyiED2JeVt8QX1ec7uA3vAyDdHzcXdZofECvsjjPBy0pvgONCZcGsXVZ1QgQvUkz0nK4D59uESnKboUg/3SoJKCyRG2YfIxFZSj3VW1PGFpxxofopTxU8z6XgP0kNOgBOnv70UEbjVGHCJHeecEEfeSpRPfcDEZIqoi5toOT65RjlyW51dm8qkJTPZs3dcaFETPiGSKG3bweoFZkhVr/As/1towYQWCzZUwLwLYisAuPd3A1JqmF5+h3Owg5nKg16GMpohy+ClZ5tlwuZ8JiniF016LxhVOe9ifnIdUafEnlHpKwsk6iQvM2ySqWovunx76Z19/v+s2VpJze9yvaeJ5+UVO5NqHq7+VS7mU536tnMzvV2j1OtssMLEZEjGQb2oEEiJvJIXNgvHUEYkvShvY7RZQA6KlgxAiLGC6y3bV0sE0EQ7qqCMXWCkgEOzjNzrK5pqTXSMrGibD1BcIL6yJwvZ4bMtXJtH8ljuNNvuxPOuu7sM2fwUt4E3fP0zZujehMO9Gbwl958GnopBKr2AjJOU5nvzXyjgUaP3sFt4YUHd/JBvDs9Gq8aZgWNIHdb+XONwq5E9aGhj4//5uCA4ZkdHH6HlFOcFh0uIAzD6+txHewNdDA45e3qHb1d7wtSdEtjVeFnuomRRLnkYoBLDkyBEQnWUR8RfhSQ1XqkW3N2UNOGXfH7PeJ/sYp29v+IfzpQ/PCU4p8euyF8pn+OrYRqxbr1b3vBm5yZF1zvnMrEpjDsLxP7i8Fd/ddbDL6Kz4KBPvNO6bOg75IZ6dPLCN44rJFA1xou6PGGO3kxc0zfzDGCOcKB5pie0hw9X7ls9XUm9pjCV/SH6jafis0vweaDO7z6BQ==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-10T09:05:08.872Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="3rWUEZJeNq9sP4doJv63" version="20.3.0" type="github">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="1037" dy="587" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lUb4Dd-yNj3w9q82t1_P-10" value="proxy module" style="rounded=1;whiteSpace=wrap;html=1;arcSize=4;fillColor=#ffe6cc;strokeColor=#d79b00;align=right;horizontal=1;verticalAlign=top;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="230" y="240" width="280" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="lUb4Dd-yNj3w9q82t1_P-19" value="call api" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="lUb4Dd-yNj3w9q82t1_P-2" target="lUb4Dd-yNj3w9q82t1_P-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lUb4Dd-yNj3w9q82t1_P-2" value="ble2cloud proxy thread" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="260" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lUb4Dd-yNj3w9q82t1_P-20" value="call api" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#000000;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="lUb4Dd-yNj3w9q82t1_P-3" target="lUb4Dd-yNj3w9q82t1_P-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="490" />
+              <mxPoint x="150" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lUb4Dd-yNj3w9q82t1_P-3" value="cloud2ble proxy thread" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="390" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lUb4Dd-yNj3w9q82t1_P-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3399FF;" parent="1" source="lUb4Dd-yNj3w9q82t1_P-4" target="lUb4Dd-yNj3w9q82t1_P-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lUb4Dd-yNj3w9q82t1_P-4" value="ble2cloud queue" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="270" y="290" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lUb4Dd-yNj3w9q82t1_P-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#3399FF;" parent="1" source="lUb4Dd-yNj3w9q82t1_P-5" target="lUb4Dd-yNj3w9q82t1_P-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lUb4Dd-yNj3w9q82t1_P-5" value="cloud2ble&lt;br&gt;queue" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="400" y="290" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lUb4Dd-yNj3w9q82t1_P-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#3399FF;" parent="1" source="lUb4Dd-yNj3w9q82t1_P-8" target="lUb4Dd-yNj3w9q82t1_P-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lUb4Dd-yNj3w9q82t1_P-8" value="ble module" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="320" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lUb4Dd-yNj3w9q82t1_P-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#3399FF;" parent="1" source="lUb4Dd-yNj3w9q82t1_P-9" target="lUb4Dd-yNj3w9q82t1_P-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lUb4Dd-yNj3w9q82t1_P-9" value="cloud module" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="320" width="120" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

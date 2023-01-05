@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-04T12:01:05.559Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="ZDCsc8ZlaXxclcY8H4i7" version="20.8.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-05T02:49:32.054Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="hHRRzOon5Bi7ou4HtFV_" version="20.8.1" type="github">
   <diagram id="nbkbJwbfGIUXgIYEi4R6" name="第 1 页">
     <mxGraphModel dx="1196" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="rDG2e7MH0CGyO9aV1cPu-3" value="bt_uart_isr" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;" parent="1" vertex="1">
           <mxGeometry x="280" y="180" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rDG2e7MH0CGyO9aV1cPu-4" value="isr trigger" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;dashed=1;" parent="1" source="rDG2e7MH0CGyO9aV1cPu-3" target="rDG2e7MH0CGyO9aV1cPu-1" edge="1">
+        <mxCell id="rDG2e7MH0CGyO9aV1cPu-4" value="isr trigger" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="1" source="rDG2e7MH0CGyO9aV1cPu-3" target="rDG2e7MH0CGyO9aV1cPu-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="270" y="230" as="targetPoint" />
             <Array as="points">
@@ -46,7 +46,7 @@
         <mxCell id="rDG2e7MH0CGyO9aV1cPu-17" value="&lt;span style=&quot;text-align: left;&quot;&gt;read_header&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="660" y="80" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KX0vqau02GDh_T3XhwHs-4" value="net_buf_put(&amp;rx.fifo, buf);" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;strokeColor=#ec0909;startArrow=none;startFill=0;endArrow=classic;endFill=1;dashed=1;" edge="1" parent="1" source="rDG2e7MH0CGyO9aV1cPu-19" target="KX0vqau02GDh_T3XhwHs-1">
+        <mxCell id="KX0vqau02GDh_T3XhwHs-4" value="net_buf_put(&amp;rx.fifo, buf);" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBorderColor=none;strokeColor=#ec0909;startArrow=none;startFill=0;endArrow=classic;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rDG2e7MH0CGyO9aV1cPu-19" target="KX0vqau02GDh_T3XhwHs-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rDG2e7MH0CGyO9aV1cPu-19" value="&lt;span style=&quot;text-align: left;&quot;&gt;read_payload&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
